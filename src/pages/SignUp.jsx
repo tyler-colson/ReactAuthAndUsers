@@ -118,11 +118,9 @@ const SignUp = () => {
                     placeholder='Enter your password'
                     value={password}
                     onChange={(e) => setPassword(e.target.value)} />
-
+<br></br>
                 <button type='submit'>Sign Up</button>
             </form>
-
-            {uid && <p>UID: {uid}</p>}
         </div>
     );
 }

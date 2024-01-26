@@ -5,19 +5,30 @@ import SignUp from './pages/SignUp';
 import AuthDetails from './pages/AuthDetails';
 import ListUsers from './pages/ListUsers';
 import UserProfile from './pages/UserProfile';
+import AppRouter from './pages/AppRouter';
 
-function App() {
+// function App() {
+//   return (
+//     <div className="App">
+// <SignIn />
+// <SignUp />
+// <AuthDetails />
+// <UserProfile />
+// <ListUsers />
+
+//     </div>
+//   );
+// }
+
+// export default App;
+
+const App = () => {
   return (
-    <div className="App">
-<SignIn />
-<SignUp />
-<AuthDetails />
-<UserProfile />
-<ListUsers />
-
+    <div>
+      <h1>React Tryout</h1>
+      <AppRouter />
     </div>
   );
-}
+};
 
 export default App;
-
