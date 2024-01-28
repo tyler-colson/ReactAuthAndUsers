@@ -33,7 +33,7 @@ const ListUsers = () => {
 
   return (
     <div>
-      <h2>User List:</h2>
+      <h1>User List:</h1>
       <ul style={{ listStyle: 'none', padding: 0 }}>
         {users.map(user => (
           <li key={user.id} style={{ marginBottom: '10px' }}>

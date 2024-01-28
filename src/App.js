@@ -25,7 +25,6 @@ import AppRouter from './pages/AppRouter';
 const App = () => {
   return (
     <div>
-      <h1>React Tryout</h1>
       <AppRouter />
     </div>
   );

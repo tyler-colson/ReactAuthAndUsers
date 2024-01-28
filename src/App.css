@@ -41,9 +41,67 @@
 ul {
   list-style: none;
   padding: 0;
+
 }
 
 /* Optional: Add some margin or padding to the list items for spacing */
 li {
   margin-bottom: 10px;
+
 }
+
+/* li a{
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover{
+  color: white;
+  
+}
+
+.list-group-item:hover{
+  background-color: black;
+  color: white;
+
+} */
+
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.list-group-item {
+  background-color: black; 
+
+}
+
+.list-group-item  {
+  text-decoration: none;
+  color: white;
+}
+
+.list-group-item:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.list-group-item:hover  {
+  color: black;
+}
+
+nav{
+  margin-bottom: 80px;
+  margin-top: 30px;
+ 
+}
+
+#root div{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+

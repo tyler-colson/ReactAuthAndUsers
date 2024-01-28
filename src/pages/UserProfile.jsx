@@ -26,7 +26,7 @@ const UserProfile = () => {
     <div>
       {user ? (
         <div>
-          <h2>User Profile:</h2>
+          <h1>User Profile:</h1>
           <p>{`User ID: ${user.uid}`}</p>
           <p>{`Email: ${user.email}`}</p>
           {user.displayName && <p>{`Name: ${user.displayName}`}</p>}
