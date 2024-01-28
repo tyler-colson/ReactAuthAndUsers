@@ -7,6 +7,7 @@ import UserProfile from './UserProfile';
 import LogIn from './LogIn';
 import NavBar from './NavBar'
 import AuthDetails from './AuthDetails';
+import Footer from '../components/footer';
 
 const AppRouter = () => {
   return (
@@ -22,6 +23,7 @@ const AppRouter = () => {
 
         {/* Add more Switch as needed */}
       </Switch>
+        <Footer />
       </div>
     </Router>
   );

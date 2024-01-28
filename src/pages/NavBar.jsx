@@ -25,11 +25,11 @@ const NavigationBar = () => {
   return (
     <nav>
       <ul class='list-group list-group-horizontal'>
-      <Link to="/"><button class="list-group-item ">Sign In</button></Link>
+      <Link to="/"><li class="list-group-item ">Log In</li></Link>
       <Link to="/SignUp"> <li class="list-group-item">Sign Up</li></Link>
       <Link to="/UserProfile"><li class="list-group-item">User Profile</li></Link>
       <Link to="/ListUsers"><li class="list-group-item">List Users</li></Link>
-      <Link to="/AuthDetails"><li class="list-group-item">Logged In Details</li></Link>
+      <Link to="/AuthDetails"><li class="list-group-item">Log Out</li></Link>
       </ul>
     </nav>
   );

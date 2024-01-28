@@ -31,8 +31,8 @@ const SignIn = () => {
             placeholder='Enter your password' 
             value={password}
             onChange={(e) => setPassword(e.target.value)}/>
-
-            <button type='submit'>Log In</button>
+<br /><br />
+            <button type='submit' className='btn btn-primary'>Log In</button>
         </form>
 
     </div>
