@@ -113,6 +113,7 @@ div h1{
 button{
   background-color: #61DBFB !important;
   border: #61dafb !important;
+  color: white;
 }
 
 button:hover{
@@ -121,3 +122,6 @@ button:hover{
   color: #61DBFB !important;
 }
 
+button{
+  margin: 1px;
+}
